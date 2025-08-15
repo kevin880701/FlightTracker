@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FlightTracker</string>
+    <string name="permission_required_title">權限請求</string>
+    <string name="notification_permission_rationale">通知權限要求</string>
+    <string name="confirm">確認</string>
+    <string name="cancel">取消</string>
+
+    <!--  Permission  -->
+    <string name="permission_permanently_denied_message">此功能需要相關權限才能運作。您先前已選擇不再詢問，請前往應用程式設定頁面手動開啟權限。</string>
+    <string name="open_settings">前往設定</string>
+    <string name="permission_guide_title">開啟權限以確保通知準時</string>
+    <string name="permission_guide_text">部分手機系統為了省電，會限制 App 在背景的活動。為了確保航班提醒能準時送達，建議您前往設定頁，開啟「自動啟動」權限，並將「電池優化」設定為「無限制」。</string>
+    <string name="go_to_settings">前往設定</string>
+    <string name="got_it">知道了</string>
+
+    <!--  Network  -->
+    <string name="network_status_disconnected">網路連線已中斷</string>
+    <string name="network_status_reconnected">網路已重新連線</string>
+
+    <!--  Main  -->
+    <string name="flight">航班</string>
+    <string name="exchange_rate">匯率</string>
+    <string name="settings">設定</string>
+    <string name="bluetooth">藍芽</string>
+
+    <!--  航班  -->
+    <string name="screen_title_flight_info">桃園機場航班資訊</string>
+    <string name="last_update_time">最後更新時間：%1$s</string>
+    <string name="no_flight_info">目前沒有航班資訊</string>
+    <string name="no_filtered_flights">找不到符合篩選條件的航班</string>
+    <string name="clear_flight_number">清除航班號碼</string>
+    <string name="clear_up_airport">清除機場</string>
+    <string name="flight_from">從: %1$s</string>
+    <string name="boarding_gate">登機門: %1$s</string>
+    <string name="delay_cause">延誤原因: %1$s</string>
+    <string name="expected_time">預計時間: %1$s</string>
+    <string name="actual_time">實際時間: %1$s</string>
+    <string name="content_description_airline_logo">%1$s Logo</string>
+    <string name="delay_info">延誤原因</string>
+    <string name="unknown">未知</string>
+    <string name="on_time">準時</string>
+    <string name="delayed">延誤</string>
+    <string name="cancelled">取消</string>
+    <string name="departed">已出發</string>
+    <string name="arrived">已抵達</string>
+    <string name="boarding">登機中</string>
+    <string name="untrack_flight">未追蹤班機</string>
+    <string name="track_flight">已追蹤班機</string>
+    <string name="cancel_tracked_flights">取消追蹤班機</string>
+    <string name="flight_from_time">從 %1$s\n預計 %2$s</string>
+
+    <!-- FilterInfoBar  -->
+    <string name="filter_label_flight_number">航班號碼: %1$s</string>
+    <string name="filter_label_up_airport">起飛機場: %1$s</string>
+    <string name="clear_flight_number_filter">清除航班號碼篩選</string>
+    <string name="clear_up_airport_filter">清除起飛機場篩選</string>
+    <string name="clear_all_filters">清除所有篩選</string>
+
+    <!-- SearchDialogContent  -->
+    <string name="flight_filter">航班篩選</string>
+    <string name="flight_number">航班號碼</string>
+    <string name="up_airport">起飛機場名稱</string>
+    <string name="filter">篩選</string>
+    <string name="clear">清除</string>
+
+    <!-- 匯率  -->
+    <string name="screen_title_exchange_rate">匯率轉換器</string>
+    <string name="input_amount_label">輸入金額</string>
+    <string name="input_amount_placeholder">e.g. 100</string>
+    <string name="base_currency_label">基準貨幣</string>
+    <string name="loading_error">無法載入匯率資訊，請稍後再試。</string>
+    <string name="currency_dropdown_content_description">展開或收起貨幣選單</string>
+
+    <!--  設定  -->
+    <string name="preferences_setting">偏好設定</string>
+    <string name="more_info">更多資訊與資源</string>
+    <string name="notifications_setting">通知設定</string>
+    <string name="language">語言</string>
+    <string name="theme">主題</string>
+    <string name="contact_us">聯繫我們</string>
+    <string name="terms_of_service">服務條款</string>
+    <string name="feedback">意見回饋</string>
+
+    <!--  LanguageDialogContent  -->
+    <string name="select_language">選擇語言</string>
+    <string name="language_zh_tw">繁體中文</string>
+    <string name="language_en">English</string>
+
+    <!--  ThemeDialogContent  -->
+    <string name="light_theme">亮色主題</string>
+    <string name="dark_theme">暗色主題</string>
+    <string name="choose_theme">選擇主題</string>
+
+    <!--  TermsOfServiceDialogContent  -->
+    <string name="terms_title_dialog">服務條款</string>
+    <string name="terms_1">1. 條款接受：使用本應用程式即表示您同意這些服務條款。</string>
+    <string name="terms_2">2. 服務使用：本應用程式提供的所有資訊僅供參考，不構成任何法律或財務建議。</string>
+    <string name="terms_3">3. 隱私政策：您的個人資料將根據我們的隱私政策處理，請參閱相關文件。</string>
+    <string name="terms_4">4. 免責聲明：我們不對因使用本應用程式而造成的任何損失或損害負責。</string>
+    <string name="terms_5">5. 變更通知：我們保留隨時修改這些條款的權利，變更將會在本頁面發布。</string>
+    <string name="terms_6">6. 智慧財產權：本應用程式的所有內容，包括但不限於文字、圖形和圖標，均受版權保護。</string>
+    <string name="terms_7">7. 終止服務：我們保留隨時終止或暫停服務的權利，恕不另行通知。</string>
+    <string name="terms_8">8. 準據法：本條款受台灣法律管轄。</string>
+    <string name="terms_9">9. 聯繫方式：如有任何疑問，請透過聯繫我們頁面與我們聯繫。</string>
+    <string name="button_close">關閉</string>
+
+    <!--  Notification  -->
+    <string name="flight_notification">班機通知</string>
+    <string name="notification_channel_name">航班提醒</string>
+    <string name="notification_channel_description">用於接收您所追蹤航班的起飛前提醒與狀態更新通知。</string>
+</resources>

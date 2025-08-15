@@ -1,0 +1,12 @@
+# Gradle cache
+.gradle/
+
+# Build directory
+build/
+
+# Local configuration file (contains SDK path, etc.)
+local.properties
+
+# IDE files (Android Studio / IntelliJ)
+.idea/
+*.iml
